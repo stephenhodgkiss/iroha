@@ -122,9 +122,8 @@ json5 = "0.4.1"
 toml = "0.8.16"
 
 # Added Steve Hodgkiss 2025/03/09
-concread = "0.5.4" 
-
-mv = { version = "0.1.0" }
+mv = { version = "0.1.0", features = [] }
+concread = "0.5.4"  # Explicitly override here
 
 [workspace.lints]
 rustdoc.private_doc_tests = "deny"
